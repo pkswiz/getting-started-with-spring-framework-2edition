@@ -5,16 +5,15 @@
 	<title>다음 지도 API</title>
 </head>
 <body>
-나옴?
+나옴?2
 	<div id="map" style="width:750px;height:350px;"></div>
 
-
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=974ae9712f37885d4ae7617d25bbbeed&libraries=services"></script>
+	<script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=발급받은 APP KEY를 사용하세요"></script>
 	<script>
 		var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
 		    mapOption = {
-		        center: new kakao.maps.LatLng(37.56682, 126.97865), // 지도의 중심좌표
-		        level: 3, // 지도의 확대 레벨
+		        center: new kakao.maps.LatLng(37.56777, 126.97655), // 지도의 중심좌표
+		        level: 4, // 지도의 확대 레벨
 		        mapTypeId : kakao.maps.MapTypeId.ROADMAP // 지도종류
 		    }; 
 
