@@ -1,0 +1,111 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<!-- 부트스트랩 CSS -->
+	<link rel="stylesheet" href="webapp/component/bootstrap-5.2.2/css/bootstrap.min.css">
+
+	<!-- test css -->
+	<link rel="stylesheet" href="webapp/css/common.css"/>
+	<link rel="stylesheet" href="webapp/css/style.css"/>
+	
+
+	<!--자바스크립트 bootstrap-5.2.2 -->
+	<script src="webapp/component/bootstrap-5.2.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div class="body_wrap">
+		<img src="webapp/image/kape_h1.png" class="kape_h1">
+		<img src="webapp/image/kape_bg.png" class="kape_bg">
+		<div class="link_wrap">
+			<a href="#" class="link_01 active">
+				<img src="webapp/image/kape_01.png">
+				<dl>
+					<dt>KAPE-TI 알아보기</dt>
+					<dd>한우농가 유형분류 모델인 KAPE-TI의 개념과 각 유형별 출하성적 통계치를 제공합니다.</dd>
+				</dl>
+			</a>
+			<a href="#" class="link_02">
+				<img src="webapp/image/kape_02.png">
+				<dl>
+					<dt>내 유형 알아보기</dt>
+					<dd>내가 출하한 실제 등급판정 데이터를 바탕으로 나의 KAPE-TI유형을 알아봅니다.</dd>
+				</dl>
+			</a>
+			<a href="#" class="link_03">
+				<img src="webapp/image/kape_03.png">
+				<dl>
+					<dt>추천 교육 영상 보기</dt>
+					<dd>KAPE-TI 유형에 따른 추천 교육영상 자료를 확인할 수 있습니다.</dd>
+				</dl>
+			</a>
+		</div>
+
+		<ul class="kape_list">
+			<li class="active">
+				<p><Strong>1</Strong>연도를 입력해주세요.</p>
+				<div class="select_wrap">
+					<select>
+						<option value="2022">2022</option>
+						<option value="2021">2021</option>
+					</select>
+					<span>년</span>
+				</div>
+			</li>
+			<li>
+				<p><Strong>2</Strong>사육형태를 입력해주세요.</p>
+				<div class="select_wrap">
+					<select>
+						<option value="암소">암소</option>
+					</select>
+					<input placeholder="두수">
+					<span>두</span>
+				</div>
+			</li>
+			<li>
+				<p><Strong>3</Strong>등급출현율(%)을 선택해주세요.</p>
+				<div class="select_wrap">
+					<select>
+						<option value="암소">암소</option>
+					</select>
+					<select>
+						<option value="암소">암소</option>
+					</select>
+					<select>
+						<option value="암소">암소</option>
+					</select>
+					<span>%</span>
+				</div>
+			</li>
+			<li>
+				<p><Strong>4</Strong>평균도체중을 입력해주세요.</p>
+				<div class="select_wrap">
+					<select>
+						<option value="암소">암소</option>
+					</select>
+					<input placeholder="kg">
+					<span>kg</span>
+				</div>
+			</li>
+			<li>
+				<p><Strong>5</Strong>평균 사육개월령을 입력해주세요.</p>
+				<div class="select_wrap">
+					<select>
+						<option value="암소">암소</option>
+					</select>
+					<input placeholder="개월">
+					<span>개월</span>
+				</div>
+			</li>
+		</ul>
+		<div class="btn_wrap">
+			<a href="#" class="btn_01 btn">초기화</a>
+			<a href="#" class="btn_02 btn">결과보기</a>
+		</div>
+		
+	</div>
+</body>
+
+</html>
